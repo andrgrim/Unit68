@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AsteroidsGenerator.js">
+    <Files>
+      <File FileName="Assets\AsteroidController.js" Line="1" Column="1" />
+      <File FileName="Assets\AsteroidsGenerator.js" Line="25" Column="2" />
+      <File FileName="Assets\GameOver.js" Line="14" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
