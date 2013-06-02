@@ -10,7 +10,7 @@ function generateSmallAsteroids()
 {
 // stop the function from generating if the asteroid is small
 	Explode();
-
+	if (size > 1) {
 
 		var counter:int;
 		counter = 0;
