@@ -31,11 +31,11 @@ function OnTriggerEnter(otherObject:Collider)
 	{
 		//increment score, destroy laser, destroy asteroid
 		GameController.score++;
-
+		SpaceshipController.shotshit++;
 		Destroy(this.gameObject);
 		
 		otherAsteroidController = otherObject.gameObject.GetComponent(AsteroidController);
-
+		otherAsteroidController.generateSmallAsteroids();
 		
 		Destroy(otherObject.gameObject);
 		
