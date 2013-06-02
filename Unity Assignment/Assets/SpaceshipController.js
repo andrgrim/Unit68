@@ -79,7 +79,9 @@ function OnTriggerEnter(otherObject:Collider)
 		
 		Destroy(otherObject.gameObject);
 	
-
+		if (GameController.score >= 10) {
+			health += 5;
+		}
 		
 		if (GameController.score == 15) {
 			speed += 10;
