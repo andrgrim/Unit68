@@ -79,7 +79,7 @@ function OnTriggerEnter(otherObject:Collider)
 		
 		Destroy(otherObject.gameObject);
 	
-		if (GameController.score == 10) {
+		if (GameController.score >= 10) {
 			health += 5;
 		}
 		

@@ -10,7 +10,7 @@ function generateSmallAsteroids()
 {
 // stop the function from generating if the asteroid is small
 	Explode();
-	if (size > 1) {
+
 
 		var counter:int;
 		counter = 0;
@@ -22,7 +22,7 @@ function generateSmallAsteroids()
 			smallAsteroid.GetComponent(AsteroidController).size = size - 1;
 			smallAsteroid.transform.localScale = Vector3(size - 1, size - 1, 1);	
 		}
-	}
+
 	
 	// destroy self
 	Destroy(gameObject);
